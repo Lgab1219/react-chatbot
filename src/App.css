@@ -1,38 +1,95 @@
+#botname {
+    font-size: 18px;
+    font-family: monospace;
+    text-align: right;
+    margin-right: 5rem;
+}
+
+#username {
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.body {
+    max-width: auto;
+}
+
 .App {
-  text-align: center;
+    border:rgb(255, 85, 85) solid 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bot-message-text {
+    text-align: right;
+    list-style-type: none;
+    margin-left: 40rem;
+    overflow-wrap: break-word;
+    inline-size: 30rem;
+    background-color: rgb(65, 201, 255);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.message-text {
+    text-align: left;
+    list-style-type: none;
+    margin-left: 20px;
+    overflow-wrap: break-word;
+    inline-size: 30rem;
+    background-color: rgb(255, 85, 85);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.message-tile {
+    overflow-y: visible;
+    overflow-wrap: break-word;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    max-width: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.submit {
+    margin-left: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background-image: url('file:///C:/Users/User/Desktop/webdev/chatbotreact/4781847_chat_chatting_communication_conversation_email_icon.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit:hover {
+    background-color:rgb(255, 190, 190);
+    border-radius: 5px;
+}
+
+
+.input-bar {
+    margin-top: 35rem;
+    margin-left: 15rem;
+    margin-bottom: 2rem;
+    width: 45rem;
+    height: 25px;
+    font-size: 20px;
+    padding-left: 10px;
+    display: inline-block;
+    position: sticky;
+    border: none;
+    border: rgb(255, 85, 85) solid 3px;
+    border-radius: 25px;
+    color:rgb(255, 85, 85);
+}
+
+body {
+    background-color: rgb(255, 240, 240);
 }
